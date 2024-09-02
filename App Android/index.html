@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricettario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>RICETTARIO</h1>
+    <div class="container">
+        <button id="aggiungiRicetta">AGGIUNGI RICETTA</button>
+
+        <form id="formAggiungi">
+            <button type="submit">AGGIUNGI RICETTA</button>
+            <input type="text" id="nomeRicetta" placeholder="Nome della ricetta" required />
+            <textarea id="ingredienti" placeholder="Ingredienti" rows="4" required></textarea>
+            <textarea id="procedimento" placeholder="Procedimento" rows="6" required></textarea>
+        </form>
+
+        <div id="dettagliRicetta"></div>
+        <button id="tornaIndietro">TORNA INDIETRO</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

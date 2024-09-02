@@ -1,0 +1,183 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.ricetta {
+    background-color: wheat;
+    margin: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border: solid 3px #a08d72;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aggiungiRicetta {
+    background-color: rgb(182, 157, 110);
+    margin: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border: solid 3px rgb(160, 141, 114);
+    padding: 20px 30px 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    width: 85%;
+    display: inline-block;
+}
+
+.nomeRicetta {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.eliminaRicetta {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: rgb(188, 49, 10);
+    font-weight: 900;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#formAggiungi {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#formAggiungi input,
+#formAggiungi textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#formAggiungi button {
+    background-color: rgb(182, 157, 110);
+    margin: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border: solid 3px rgb(160, 141, 114);
+    padding: 20px 30px 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    width: 85%;
+}
+
+#dettagliRicetta {
+    display: none;
+    margin: 10px 0;
+}
+
+#tornaIndietro {
+    display: none;
+    background-color: rgb(182, 157, 110);
+    margin: 50px 30px 10px 30px;
+    border-radius: 30px;
+    border: solid 3px rgb(160, 141, 114);
+    padding: 20px 30px 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    width: 85%;
+}
+
+#dettagliRicetta{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #aggiungiRicetta,
+    #formAggiungi button,
+    #tornaIndietro {
+        font-size: 18px;
+        padding: 15px;
+        width: 85%;
+    }
+
+    #formAggiungi input,
+    #formAggiungi textarea {
+        font-size: 16px;
+    }
+
+    .ricetta {
+        margin: 10px 5px;
+        padding: 15px;
+    }
+
+    .nomeRicetta {
+        font-size: 18px;
+    }
+
+    #dettagliRicetta {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .eliminaRicetta {
+        height: 40px;
+        width: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #aggiungiRicetta,
+    #formAggiungi button,
+    #tornaIndietro {
+        font-size: 20px;
+        padding: 18px;
+        width: 85%;
+    }
+
+    #formAggiungi input,
+    #formAggiungi textarea {
+        font-size: 18px;
+    }
+
+    .ricetta {
+        margin: 10px 20px;
+        padding: 18px;
+    }
+
+    .nomeRicetta {
+        font-size: 20px;
+    }
+
+    #dettagliRicetta {
+        font-size: 22px;
+        margin: 20px;
+    }
+
+    .eliminaRicetta {
+        height: 45px;
+        width: 45px;
+        font-size: 15px;
+    }
+}
